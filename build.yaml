@@ -21,5 +21,7 @@
 include:
   - board: nrfmicro_13_52833
     shield: mito_left
+    snippet: zmk-usb-logging
   - board: nrfmicro_13_52833
     shield: mito_right
+    snippet: zmk-usb-logging
