@@ -13,11 +13,11 @@
     chosen {
         zmk,physical-layout = &default_layout;
         zmk,kscan = &kscan0;
-        zmk,battery = &volt-div;
+        zmk,battery = &volt_div;
         zmk,underglow = &led_strip;
     };
 
-    volt-div: vbatt {
+    volt_div: vbatt {
         status = "okay";
         compatible = "zmk,battery-voltage-divider";
         label = "nrf voltage divider";
