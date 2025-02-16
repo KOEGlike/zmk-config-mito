@@ -1,0 +1,12 @@
+file_format: "1"
+id: mito
+name: mito
+type: shield
+url: https://github.com/KOEGlike/mito
+requires: []
+exposes:
+features:
+  - keys
+siblings:
+  - mito_left
+  - mito_right
