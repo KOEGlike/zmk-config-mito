@@ -44,6 +44,7 @@
 
     spi3 {
         compatible = "nordic,nrf-spim";
+        reg = <0x40024000 0x1000>; // i don't know whats this
         status = "okay";
 
         pinctrl-0 = <&spi3_default>;
