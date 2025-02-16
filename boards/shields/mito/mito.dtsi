@@ -24,7 +24,7 @@
         io-channels = <&adc 7>;
         output-ohms = <2000000>;
         full-ohms =  <2806000>;
-        power-gpios = <&gpio1 09 (GPIO_ACTIVE_LOW)>;
+        power-gpios = <&gpio1 9 (GPIO_ACTIVE_LOW)>;
     };
 
     &pinctrl {
