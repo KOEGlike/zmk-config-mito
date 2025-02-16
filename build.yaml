@@ -20,11 +20,6 @@
 ---
 include:
   - board: nrfmicro_13_52833
-    shield: corne_left
+    shield: mito_left
   - board: nrfmicro_13_52833
-    shield: corne_right
-include:
-  - board: nrfmicro_13_52833
-    shield: corne_left
-  - board: nrfmicro_13_52833
-    shield: corne_right
+    shield: mito_right
