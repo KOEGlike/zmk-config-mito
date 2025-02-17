@@ -1,0 +1,6 @@
+#include "mito.dtsi"
+
+/ {
+    model = "mito_lh";
+    compatible = "mito_lh";
+};

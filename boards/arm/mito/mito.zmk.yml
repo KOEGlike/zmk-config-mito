@@ -1,0 +1,17 @@
+file_format: "1"
+id: mito
+name: mito
+type: board
+arch: arm
+url: https://mito.koeg.dev
+features:
+  - keys
+  - underglow
+  - backlight
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - mito_lh
+  - mito_rh

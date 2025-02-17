@@ -19,12 +19,10 @@
 #
 ---
 include:
-  - board: nrfmicro_13_52833
-    shield: mito_left
+  - board: mito_lh
     snippet: zmk-usb-logging
-  - board: nrfmicro_13_52833
-    shield: mito_right
+  - board: mito_rh
     snippet: zmk-usb-logging
-  - board: nrfmicro_13_52833
+  - board: mito_lh
     shield: settings_reset
     snippet: zmk-usb-logging

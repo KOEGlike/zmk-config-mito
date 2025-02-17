@@ -1,0 +1,10 @@
+# Copyright (c) 2021 Nick Winans
+# SPDX-License-Identifier: MIT
+
+config BOARD_MITO_LH
+    bool "Mito LH"
+    depends on SOC_NRF52833_QIAA
+
+config BOARD_MITO_RH
+    bool "Mito RH"
+    depends on SOC_NRF52833_QIAA

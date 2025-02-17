@@ -1,0 +1,10 @@
+#include "mito.dtsi"
+
+/ {
+    model = "mito_rh";
+    compatible = "mito_rh";
+};
+
+&matrix_transform0 {
+    col-offset = <5>;
+};

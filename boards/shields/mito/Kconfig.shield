@@ -1,5 +1,0 @@
-config SHIELD_MITO_LEFT
-    def_bool $(shields_list_contains,mito_left)
-
-config SHIELD_MITO_RIGHT
-    def_bool $(shields_list_contains,mito_right)
