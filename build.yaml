@@ -25,3 +25,6 @@ include:
   - board: nrfmicro_13_52833
     shield: mito_right
     snippet: zmk-usb-logging
+  - board: nrfmicro_13_52833
+    shield: settings_reset
+    snippet: zmk-usb-logging
