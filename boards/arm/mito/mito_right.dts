@@ -7,6 +7,6 @@
     compatible = "mito_right";
 };
 
-&keymap_transform_0 {
+&default_transform {
     col-offset = <5>;
 };
