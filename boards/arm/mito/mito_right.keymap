@@ -1,5 +1,1 @@
 #include "mito.keymap"
-
-&matrix_transform0 {
-    col-offset = <5>;
-};

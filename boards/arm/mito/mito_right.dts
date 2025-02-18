@@ -6,3 +6,7 @@
     model = "mito_right";
     compatible = "mito_right";
 };
+
+&keymap_transform_0 {
+    col-offset = <5>;
+};
