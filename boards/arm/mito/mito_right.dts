@@ -1,0 +1,12 @@
+/dts-v1/;
+#include "mito.dtsi"
+#include <dt-bindings/zmk/matrix_transform.h>
+
+/ {
+    model = "mito_right";
+    compatible = "mito_right";
+};
+
+&matrix_transform0 {
+    col-offset = <5>;
+};

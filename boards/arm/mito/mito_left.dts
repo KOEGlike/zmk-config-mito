@@ -1,0 +1,7 @@
+/dts-v1/;
+#include "mito.dtsi"
+
+/ {
+    model = "mito_left";
+    compatible = "mito_left";
+};

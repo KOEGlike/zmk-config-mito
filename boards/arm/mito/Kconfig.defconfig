@@ -1,21 +1,21 @@
-if BOARD_MITO_LH
+if BOARD_MITO_LEFT
 
 config BOARD
-    default "mito lh"
+    default "mito left"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
 
-endif # BOARD_MITO_LH
+endif # BOARD_MITO_LEFT
 
-if BOARD_MITO_RH
+if BOARD_MITO_RIGHT
 
 config BOARD
-    default "mito rh"
+    default "mito right"
 
-endif # BOARD_MITO_RH
+endif # BOARD_MITO_RIGHT
 
-if BOARD_MITO_LH || BOARD_MITO_RH
+if BOARD_MITO_LEFT || BOARD_MITO_RIGHT
 
 config ZMK_SPLIT
     default y
@@ -59,4 +59,4 @@ config WS2812_STRIP
 
 endif # ZMK_RGB_UNDERGLOW
 
-endif # BOARD_MITO_LH || BOARD_MITO_RH
+endif # BOARD_MITO_LEFT || BOARD_MITO_RIGHT
