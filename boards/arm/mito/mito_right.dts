@@ -6,7 +6,3 @@
     model = "mito_right";
     compatible = "mito_right";
 };
-
-&matrix_transform0 {
-    col-offset = <5>;
-};
