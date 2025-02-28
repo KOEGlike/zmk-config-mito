@@ -20,9 +20,6 @@
 ---
 include:
   - board: mito_left
-    snippet: zmk-usb-logging
   - board: mito_right
-    snippet: zmk-usb-logging
   - board: mito_left
     shield: settings_reset
-    snippet: zmk-usb-logging
